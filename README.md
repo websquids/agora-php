@@ -1,5 +1,7 @@
 # agora-php
-Agora.io Server SDK for PHP
+Agora.io Server SDK for PHP (Unofficial).
+
+This repository is fork from [qbhy/agora](https://github.com/qbhy/agora).
 
 ## Requirement
 * composer
@@ -11,7 +13,7 @@ Agora.io Server SDK for PHP
 $ composer require meteor-technology/agora-php
 ```
 
-## Using
+## Usage
 ```php
 require_once 'vendor/autoload.php';
 

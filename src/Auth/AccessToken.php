@@ -1,8 +1,8 @@
 <?php
 
-namespace Qbhy\Agora\Auth;
+namespace meteorTechnology\AgoraSDK\Auth;
 
-use function Qbhy\Agora\packString;
+use function meteorTechnology\AgoraSDK\packString;
 
 class AccessToken
 {
@@ -52,9 +52,11 @@ class AccessToken
     {
         $accessToken = new AccessToken();
 
-        if (!$accessToken->isNonemptyString("appID", $appID) ||
+        if (
+            !$accessToken->isNonemptyString("appID", $appID) ||
             !$accessToken->isNonemptyString("appCertificate", $appCertificate) ||
-            !$accessToken->isNonemptyString("channelName", $channelName)) {
+            !$accessToken->isNonemptyString("channelName", $channelName)
+        ) {
             return null;
         }
 
@@ -92,9 +94,11 @@ class AccessToken
             return false;
         }
 
-        if (!$this->isNonemptyString("token", $token) ||
+        if (
+            !$this->isNonemptyString("token", $token) ||
             !$this->isNonemptyString("appCertificate", $appCertificate) ||
-            !$this->isNonemptyString("channelName", $channelName)) {
+            !$this->isNonemptyString("channelName", $channelName)
+        ) {
             return false;
         }
 

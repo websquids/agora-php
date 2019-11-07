@@ -1,17 +1,11 @@
 <?php
-/**
- * @link https://docs.agora.io/cn/Interactive%20Broadcast/dashboard_restful_live?platform=All_Platforms
- * User: qbhy
- * Date: 2019-01-22
- * Time: 23:01
- */
 
-namespace Qbhy\Agora;
+namespace meteorTechnology\AgoraSDK;
 
 class Project extends Api
 {
     /**
-     * 获取所有项目
+     * Get all items
      *
      * @return array
      */
@@ -21,7 +15,7 @@ class Project extends Api
     }
 
     /**
-     * 获取单个项目
+     * Get item
      *
      * @param string      $id
      * @param string|null $name
@@ -41,7 +35,7 @@ class Project extends Api
     }
 
     /**
-     * 创建项目
+     * Create project
      *
      * @param string $name
      * @param bool   $enable_sign_key
@@ -54,7 +48,7 @@ class Project extends Api
     }
 
     /**
-     * 禁用或启用项目
+     * Disable or Enable project
      *
      * @param string $id
      * @param int    $status
@@ -67,7 +61,7 @@ class Project extends Api
     }
 
     /**
-     * 删除项目
+     * Delete item
      *
      * @param string $id
      *
@@ -79,7 +73,7 @@ class Project extends Api
     }
 
     /**
-     * 设置项目的录制项目服务器 IP
+     * Set recording server
      *
      * @param string $id
      * @param string $recording_server
@@ -92,7 +86,7 @@ class Project extends Api
     }
 
     /**
-     * 禁用或启用项目 App Certificate
+     * Disable or Enable App Certificate
      *
      * @param string $id
      * @param bool   $enable
@@ -105,7 +99,7 @@ class Project extends Api
     }
 
     /**
-     * 重置项目的 App Certificate
+     * Reset App Certificate
      *
      * @param string $id
      *

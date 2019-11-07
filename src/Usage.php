@@ -1,16 +1,11 @@
 <?php
-/**
- * User: qbhy
- * Date: 2019-01-22
- * Time: 23:30
- */
 
-namespace Qbhy\Agora;
+namespace meteorTechnology\AgoraSDK;
 
 class Usage extends Api
 {
     /**
-     * 获取用量数据
+     * Get usage data
      *
      * @param string $from_date
      * @param string $to_data

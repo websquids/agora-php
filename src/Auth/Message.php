@@ -1,6 +1,6 @@
 <?php
 
-namespace Qbhy\Agora\Auth;
+namespace meteorTechnology\AgoraSDK\Auth;
 
 class Message
 {

@@ -1,5 +1,5 @@
 # agora-php
-Agora.io SDK for PHP
+Agora.io Server SDK for PHP
 
 ## Requirement
 * composer
@@ -21,7 +21,7 @@ $config = [
     'secret' => 'your secret',
 ];
 
-$agora = new \Qbhy\Agora\Agora($config);
+$agora = new \meteorTechnology\AgoraSDK\Agora($config);
 
 var_dump($agora->project->all());
 var_dump($agora->usage->get('2019-1-21','2019-1-22',['appid']));

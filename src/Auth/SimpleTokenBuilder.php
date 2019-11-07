@@ -1,9 +1,9 @@
 <?php
 
-namespace Qbhy\Agora\Auth;
+namespace meteorTechnology\AgoraSDK\Auth;
 
-use Qbhy\Agora\Agora;
-use Qbhy\Agora\Api;
+use meteorTechnology\AgoraSDK\Agora;
+use meteorTechnology\AgoraSDK\Api;
 
 class SimpleTokenBuilder extends Api
 {

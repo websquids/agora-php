@@ -1,6 +1,6 @@
 <?php
 
-namespace Qbhy\Agora;
+namespace meteorTechnology\AgoraSDK;
 
 const SDK_VERSION = '1';
 

@@ -1,12 +1,6 @@
 <?php
-/**
- * @link https://docs.agora.io/cn/Interactive%20Broadcast/dashboard_restful_live?platform=All_Platforms
- * User: qbhy
- * Date: 2019-01-22
- * Time: 22:06
- */
 
-namespace Qbhy\Agora;
+namespace meteorTechnology\AgoraSDK;
 
 use GuzzleHttp\RequestOptions;
 use Hanson\Foundation\AbstractAPI;
@@ -38,11 +32,9 @@ class Api extends AbstractAPI
             RequestOptions::AUTH => [$this->app->getConfig('id'), $this->app->getConfig('secret')]
         ];
         $result  = $this->getHttp()
-                        ->request($method, Api::BASE_URL . $uri, $options)
-                        ->getBody()
-                        ->__toString();
+            ->request($method, Api::BASE_URL . $uri, $options)
+            ->getBody()
+            ->__toString();
         return json_decode($result, true);
     }
-
-
 }

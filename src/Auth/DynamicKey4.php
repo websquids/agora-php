@@ -1,6 +1,6 @@
 <?php
 
-namespace Qbhy\Agora\Auth;
+namespace meteorTechnology\AgoraSDK\Auth;
 
 class DynamicKey4
 {
@@ -37,5 +37,4 @@ class DynamicKey4
         $concat = $serviceType . $appID . $ts . $randomStr . $channelName . $uidStr . $expiredStr;
         return hash_hmac('sha1', $concat, $appCertificate);
     }
-
 }

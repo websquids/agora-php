@@ -1,15 +1,10 @@
 <?php
-/**
- * User: qbhy
- * Date: 2019-01-22
- * Time: 22:32
- */
 
-namespace Qbhy\Agora;
+namespace meteorTechnology\AgoraSDK;
 
 use Pimple\Container;
 use Pimple\ServiceProviderInterface;
-use Qbhy\Agora\Auth\SimpleTokenBuilder;
+use meteorTechnology\AgoraSDK\Auth\SimpleTokenBuilder;
 
 class ServiceProvider implements ServiceProviderInterface
 {
@@ -28,5 +23,4 @@ class ServiceProvider implements ServiceProviderInterface
             return new SimpleTokenBuilder($agora);
         };
     }
-
 }

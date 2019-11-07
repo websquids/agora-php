@@ -1,8 +1,8 @@
 <?php
 
-namespace Qbhy\Agora\Auth;
+namespace meteorTechnology\AgoraSDK\Auth;
 
-use function Qbhy\Agora\packString;
+use function meteorTechnology\AgoraSDK\packString;
 
 class DynamicKey5
 {
@@ -11,10 +11,10 @@ class DynamicKey5
     public static $NO_UPLOAD = "0";
     public static $AUDIO_VIDEO_UPLOAD = "3";
 
-// InChannelPermissionKey
+    // InChannelPermissionKey
     public static $ALLOW_UPLOAD_IN_CHANNEL = 1;
 
-// Service Type
+    // Service Type
     public static $MEDIA_CHANNEL_SERVICE = 1;
     public static $RECORDING_SERVICE = 2;
     public static $PUBLIC_SHARING_SERVICE = 3;
@@ -88,5 +88,4 @@ class DynamicKey5
 
         return $buffer;
     }
-
 }

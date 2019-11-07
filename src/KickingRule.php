@@ -1,16 +1,11 @@
 <?php
-/**
- * User: qbhy
- * Date: 2019-01-22
- * Time: 23:35
- */
 
-namespace Qbhy\Agora;
+namespace meteorTechnology\AgoraSDK;
 
 class KickingRule extends Api
 {
     /**
-     * 创建规则
+     * Create rules
      *
      * @param string $appid
      * @param array  $optional
@@ -23,7 +18,7 @@ class KickingRule extends Api
     }
 
     /**
-     * 获取规则列表
+     * Get rules
      *
      * @param string $appid
      *
@@ -35,7 +30,7 @@ class KickingRule extends Api
     }
 
     /**
-     * 更新规则时间
+     * Update rules
      *
      * @param string $appid
      * @param string $id
@@ -49,7 +44,7 @@ class KickingRule extends Api
     }
 
     /**
-     * 删除规则
+     * Delete rules
      *
      * @param string $appid
      * @param string $id
@@ -60,6 +55,4 @@ class KickingRule extends Api
     {
         return $this->request('DELETE', '/kicking-rule', compact('appid', 'id'));
     }
-
-
 }

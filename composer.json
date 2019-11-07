@@ -1,6 +1,6 @@
 {
-    "name": "96qbhy/agora",
-    "description": "声网php-SDK",
+    "name": "meteor-technology/agora-php",
+    "description": "Agora.io SDK for PHP",
     "require": {
         "hanson/foundation-sdk": "^3.0",
         "php": ">=7.1",
@@ -8,13 +8,13 @@
     },
     "authors": [
         {
-            "name": "qbhy",
-            "email": "572490755@qq.com"
+            "name": "Shumpei Urabe",
+            "email": "urabe@meteor.ne.jp"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Qbhy\\Agora\\": "src"
+            "meteor-technology\\agora-php\\": "src"
         },
         "files": [
             "src/helper.php"

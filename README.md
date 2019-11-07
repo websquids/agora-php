@@ -1,17 +1,17 @@
-# agora
-声网php-SDK
+# agora-php
+Agora.io SDK for PHP
 
-## 要求
+## Requirement
 * composer
 * php >=7.1
 * ext-json >=1.0
 
-## 安装
+## Install
 ```bash
-$ composer require 96qbhy/agora
+$ composer require meteor-technology/agora-php
 ```
 
-## 使用
+## Using
 ```php
 require_once 'vendor/autoload.php';
 
@@ -23,11 +23,10 @@ $config = [
 
 $agora = new \Qbhy\Agora\Agora($config);
 
-var_dump($agora->project->all()); // 获取所有项目
-var_dump($agora->usage->get('2019-1-21','2019-1-22',['appid'])); // 获取用量
-var_dump($agora->kicking_rule->all()); // 获取所有规则
-var_dump($agora->token->buildToken('channel','uid')); // 生成token
+var_dump($agora->project->all());
+var_dump($agora->usage->get('2019-1-21','2019-1-22',['appid']));
+var_dump($agora->kicking_rule->all());
+var_dump($agora->token->buildToken('channel','uid'));
 ```
-
-[96qbhy/agora](https://github.com/qbhy/agora)  
-96qbhy@gmail.com
+## LICENSE
+MIT

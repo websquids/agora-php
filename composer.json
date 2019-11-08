@@ -1,6 +1,8 @@
 {
     "name": "meteor-technology/agora-php",
     "description": "Agora.io Server SDK for PHP",
+    "type": "library",
+    "license": "MIT",
     "require": {
         "hanson/foundation-sdk": "^3.0",
         "php": ">=7.1",
@@ -12,6 +14,7 @@
             "email": "urabe@meteor.ne.jp"
         }
     ],
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "meteorTechnology\\AgoraSDK\\": "src"

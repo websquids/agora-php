@@ -1,5 +1,5 @@
 {
-    "name": "meteor-technology/agora-php",
+    "name": "websquids/agora-php",
     "description": "Agora.io Server SDK for PHP",
     "type": "library",
     "license": "MIT",
@@ -10,8 +10,8 @@
     },
     "authors": [
         {
-            "name": "Shumpei Urabe",
-            "email": "urabe@meteor.ne.jp"
+            "name": "websquids",
+            "email": "info@websquids.com"
         }
     ],
     "minimum-stability": "stable",

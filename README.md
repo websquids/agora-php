@@ -1,7 +1,7 @@
 # agora-php
 Agora.io Server SDK for PHP (Unofficial).
 
-This repository is fork from [qbhy/agora](https://github.com/qbhy/agora).
+This repository is fork from [meteor-technology/agora-php](https://github.com/meteor-technology/agora-php).
 
 ## Requirement
 * composer
@@ -10,7 +10,7 @@ This repository is fork from [qbhy/agora](https://github.com/qbhy/agora).
 
 ## Install
 ```bash
-$ composer require meteor-technology/agora-php
+$ composer require websquids/agora-php
 ```
 
 ## Usage
